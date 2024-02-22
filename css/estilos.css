@@ -1,0 +1,64 @@
+:root {
+    --purple : purple;
+    --black : black;
+    --yellow: yellow;
+    --white: white;
+    --orange: orange;
+    --blue:blue;
+    --gray: gray;
+}
+body{
+    font-size: 32px;
+    font-family: Times New Roman;
+}
+
+nav a{
+
+        text-decoration: none;
+        font-size: 17px;
+        color: #000;
+ }
+ .inicio{
+    padding: 8px 7px;
+    border-radius: 10%;
+    border: 1px solid;
+    background-color: var(--purple);
+    color: var(--gray);
+   
+}
+.inicio:hover{
+    color: var(--black);
+}
+.nosotros{
+    padding: 8px 7px;
+    border-radius: 10%;
+    border: 1px solid;
+    background-color: var(--orange);
+    color: var(--black);
+}
+.nosotros:hover{
+    color:var(--yellow);
+}
+
+.actualizacion{
+    text-decoration: none;
+    padding: 8px 7px;
+    background-color: var(--purple);
+    color: var(yellow);
+    border-radius: 10%;
+    border: 1px solid;
+}
+.actualizacion:hover{
+    background-color: var(--gray);
+}
+.iniciarsesion{
+    text-decoration: none;
+    padding: 8px 7px;
+    background-color: var(--gray);
+    color: var(--black);
+    border-radius: 10%;
+    border: 1px solid;
+}
+.iniciarsesion:hover{
+    background-color: var(--orange);
+}
